@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg
+PUBLIC "-//W3C//DTD SVG 1.1//EN"
+       "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg viewBox="54 32 917 708" width="863px" height="676px" xmlns="http://www.w3.org/2000/svg" version="1.1">
+   <line x1="448" y1="354" x2="438" y2="354" style="stroke:#333;stroke-width:1;"/>
+   <line x1="166" y1="77" x2="156" y2="77" style="stroke:#333;stroke-width:1;"/>
+   <line x1="438" y1="354" x2="166" y2="77" style="stroke:#333;stroke-width:1;"/>
+   <line x1="440.5" y1="354" x2="444.03553390593" y2="357.53553390593" style="stroke:#333;stroke-width:2;"/>
+   <line x1="440.5" y1="354" x2="444.03553390593" y2="350.46446609407" style="stroke:#333;stroke-width:2;"/>
+   <line x1="161" y1="77" x2="164.53553390593" y2="80.535533905933" style="stroke:#333;stroke-width:2;"/>
+   <line x1="161" y1="77" x2="164.53553390593" y2="73.464466094067" style="stroke:#333;stroke-width:2;"/>
+   <line x1="448" y1="394" x2="438" y2="394" style="stroke:#0bf;stroke-width:1;"/>
+   <line x1="195" y1="618" x2="185" y2="618" style="stroke:#0bf;stroke-width:1;"/>
+   <line x1="438" y1="394" x2="195" y2="618" style="stroke:#0bf;stroke-width:1;"/>
+   <line x1="440.5" y1="394" x2="444.03553390593" y2="397.53553390593" style="stroke:#0bf;stroke-width:2;"/>
+   <line x1="440.5" y1="394" x2="444.03553390593" y2="390.46446609407" style="stroke:#0bf;stroke-width:2;"/>
+   <line x1="190" y1="618" x2="193.53553390593" y2="621.53553390593" style="stroke:#0bf;stroke-width:2;"/>
+   <line x1="190" y1="618" x2="193.53553390593" y2="614.46446609407" style="stroke:#0bf;stroke-width:2;"/>
+   <line x1="753" y1="153" x2="743" y2="153" style="stroke:#333;stroke-width:1;"/>
+   <line x1="166" y1="77" x2="156" y2="77" style="stroke:#333;stroke-width:1;"/>
+   <line x1="743" y1="153" x2="166" y2="77" style="stroke:#333;stroke-width:1;"/>
+   <line x1="745.5" y1="153" x2="749.03553390593" y2="156.53553390593" style="stroke:#333;stroke-width:2;"/>
+   <line x1="745.5" y1="153" x2="749.03553390593" y2="149.46446609407" style="stroke:#333;stroke-width:2;"/>
+   <line x1="161" y1="77" x2="164.53553390593" y2="80.535533905933" style="stroke:#333;stroke-width:2;"/>
+   <line x1="161" y1="77" x2="164.53553390593" y2="73.464466094067" style="stroke:#333;stroke-width:2;"/>
+   <line x1="753" y1="173" x2="743" y2="173" style="stroke:#333;stroke-width:1;"/>
+   <line x1="568" y1="274" x2="558" y2="274" style="stroke:#333;stroke-width:1;"/>
+   <line x1="743" y1="173" x2="568" y2="274" style="stroke:#333;stroke-width:1;"/>
+   <line x1="745.5" y1="173" x2="749.03553390593" y2="176.53553390593" style="stroke:#333;stroke-width:2;"/>
+   <line x1="745.5" y1="173" x2="749.03553390593" y2="169.46446609407" style="stroke:#333;stroke-width:2;"/>
+   <line x1="563" y1="274" x2="566.53553390593" y2="277.53553390593" style="stroke:#333;stroke-width:2;"/>
+   <line x1="563" y1="274" x2="566.53553390593" y2="270.46446609407" style="stroke:#333;stroke-width:2;"/>
+   <line x1="547" y1="683" x2="557" y2="683" style="stroke:#cb0;stroke-width:1;"/>
+   <line x1="802" y1="623" x2="812" y2="623" style="stroke:#cb0;stroke-width:1;"/>
+   <line x1="557" y1="683" x2="802" y2="623" style="stroke:#cb0;stroke-width:1;"/>
+   <line x1="554.5" y1="683" x2="550.96446609407" y2="686.53553390593" style="stroke:#cb0;stroke-width:2;"/>
+   <line x1="554.5" y1="683" x2="550.96446609407" y2="679.46446609407" style="stroke:#cb0;stroke-width:2;"/>
+   <line x1="807" y1="623" x2="803.46446609407" y2="626.53553390593" style="stroke:#cb0;stroke-width:2;"/>
+   <line x1="807" y1="623" x2="803.46446609407" y2="619.46446609407" style="stroke:#cb0;stroke-width:2;"/>
+   <line x1="185" y1="658" x2="195" y2="658" style="stroke:#bbb;stroke-width:1;"/>
+   <line x1="435" y1="643" x2="445" y2="643" style="stroke:#bbb;stroke-width:1;"/>
+   <line x1="195" y1="658" x2="435" y2="643" style="stroke:#bbb;stroke-width:1;"/>
+   <line x1="192.5" y1="658" x2="188.96446609407" y2="661.53553390593" style="stroke:#bbb;stroke-width:2;"/>
+   <line x1="192.5" y1="658" x2="188.96446609407" y2="654.46446609407" style="stroke:#bbb;stroke-width:2;"/>
+   <line x1="440" y1="643" x2="436.46446609407" y2="646.53553390593" style="stroke:#bbb;stroke-width:2;"/>
+   <line x1="440" y1="643" x2="436.46446609407" y2="639.46446609407" style="stroke:#bbb;stroke-width:2;"/>
+   <rect width="90" height="20" x="812" y="593" style="fill:#007;stroke:black;"/>
+   <text width="90" height="20" x="817" y="607" style="fill:#fff;" font-family="Arial" font-size="16px"> tbl_category</text>
+   <rect width="90" height="20" x="812" y="613" style="fill:#aea;stroke:black;"/>
+   <text width="90" height="20" x="817" y="627" style="fill:black;" font-family="Arial" font-size="16px">cid</text>
+   <rect width="90" height="20" x="812" y="633" style="fill:none;stroke:black;"/>
+   <text width="90" height="20" x="817" y="647" style="fill:black;" font-family="Arial" font-size="16px">ctype</text>
+   <rect width="110" height="20" x="448" y="244" style="fill:#007;stroke:black;"/>
+   <text width="110" height="20" x="453" y="258" style="fill:#fff;" font-family="Arial" font-size="16px"> tbl_exam</text>
+   <rect width="110" height="20" x="448" y="264" style="fill:#aea;stroke:black;"/>
+   <text width="110" height="20" x="453" y="278" style="fill:black;" font-family="Arial" font-size="16px">eid</text>
+   <rect width="110" height="20" x="448" y="284" style="fill:none;stroke:black;"/>
+   <text width="110" height="20" x="453" y="298" style="fill:black;" font-family="Arial" font-size="16px">edownload_url</text>
+   <rect width="110" height="20" x="448" y="304" style="fill:none;stroke:black;"/>
+   <text width="110" height="20" x="453" y="318" style="fill:black;" font-family="Arial" font-size="16px">etitle</text>
+   <rect width="110" height="20" x="448" y="324" style="fill:none;stroke:black;"/>
+   <text width="110" height="20" x="453" y="338" style="fill:black;" font-family="Arial" font-size="16px">edescription</text>
+   <rect width="110" height="20" x="448" y="344" style="fill:none;stroke:black;"/>
+   <text width="110" height="20" x="453" y="358" style="fill:black;" font-family="Arial" font-size="16px">user_id</text>
+   <rect width="110" height="20" x="448" y="364" style="fill:none;stroke:black;"/>
+   <text width="110" height="20" x="453" y="378" style="fill:black;" font-family="Arial" font-size="16px">eyear</text>
+   <rect width="110" height="20" x="448" y="384" style="fill:none;stroke:black;"/>
+   <text width="110" height="20" x="453" y="398" style="fill:black;" font-family="Arial" font-size="16px">sid</text>
+   <rect width="110" height="20" x="448" y="404" style="fill:none;stroke:black;"/>
+   <text width="110" height="20" x="453" y="418" style="fill:black;" font-family="Arial" font-size="16px">edate</text>
+   <rect width="110" height="20" x="448" y="424" style="fill:none;stroke:black;"/>
+   <text width="110" height="20" x="453" y="438" style="fill:black;" font-family="Arial" font-size="16px">iid</text>
+   <rect width="110" height="20" x="448" y="444" style="fill:none;stroke:black;"/>
+   <text width="110" height="20" x="453" y="458" style="fill:black;" font-family="Arial" font-size="16px">cid</text>
+   <rect width="93" height="20" x="753" y="63" style="fill:#007;stroke:black;"/>
+   <text width="93" height="20" x="758" y="77" style="fill:#fff;" font-family="Arial" font-size="16px"> tbl_feedback</text>
+   <rect width="93" height="20" x="753" y="83" style="fill:#aea;stroke:black;"/>
+   <text width="93" height="20" x="758" y="97" style="fill:black;" font-family="Arial" font-size="16px">fid</text>
+   <rect width="93" height="20" x="753" y="103" style="fill:none;stroke:black;"/>
+   <text width="93" height="20" x="758" y="117" style="fill:black;" font-family="Arial" font-size="16px">fsubject</text>
+   <rect width="93" height="20" x="753" y="123" style="fill:none;stroke:black;"/>
+   <text width="93" height="20" x="758" y="137" style="fill:black;" font-family="Arial" font-size="16px">fmessage</text>
+   <rect width="93" height="20" x="753" y="143" style="fill:none;stroke:black;"/>
+   <text width="93" height="20" x="758" y="157" style="fill:black;" font-family="Arial" font-size="16px">user_id</text>
+   <rect width="93" height="20" x="753" y="163" style="fill:none;stroke:black;"/>
+   <text width="93" height="20" x="758" y="177" style="fill:black;" font-family="Arial" font-size="16px">exam_id</text>
+   <rect width="93" height="20" x="753" y="183" style="fill:none;stroke:black;"/>
+   <text width="93" height="20" x="758" y="197" style="fill:black;" font-family="Arial" font-size="16px">date</text>
+   <rect width="102" height="20" x="445" y="613" style="fill:#007;stroke:black;"/>
+   <text width="102" height="20" x="450" y="627" style="fill:#fff;" font-family="Arial" font-size="16px"> tbl_instituition</text>
+   <rect width="102" height="20" x="445" y="633" style="fill:#aea;stroke:black;"/>
+   <text width="102" height="20" x="450" y="647" style="fill:black;" font-family="Arial" font-size="16px">iid</text>
+   <rect width="102" height="20" x="445" y="653" style="fill:none;stroke:black;"/>
+   <text width="102" height="20" x="450" y="667" style="fill:black;" font-family="Arial" font-size="16px">iname</text>
+   <rect width="102" height="20" x="445" y="673" style="fill:none;stroke:black;"/>
+   <text width="102" height="20" x="450" y="687" style="fill:black;" font-family="Arial" font-size="16px">ctype</text>
+   <rect width="99" height="20" x="86" y="588" style="fill:#007;stroke:black;"/>
+   <text width="99" height="20" x="91" y="602" style="fill:#fff;" font-family="Arial" font-size="16px"> tbl_subject</text>
+   <rect width="99" height="20" x="86" y="608" style="fill:#aea;stroke:black;"/>
+   <text width="99" height="20" x="91" y="622" style="fill:black;" font-family="Arial" font-size="16px">sid</text>
+   <rect width="99" height="20" x="86" y="628" style="fill:none;stroke:black;"/>
+   <text width="99" height="20" x="91" y="642" style="fill:black;" font-family="Arial" font-size="16px">sname</text>
+   <rect width="99" height="20" x="86" y="648" style="fill:none;stroke:black;"/>
+   <text width="99" height="20" x="91" y="662" style="fill:black;" font-family="Arial" font-size="16px">instituition_id</text>
+   <rect width="87" height="20" x="69" y="47" style="fill:#007;stroke:black;"/>
+   <text width="87" height="20" x="74" y="61" style="fill:#fff;" font-family="Arial" font-size="16px"> tbl_user</text>
+   <rect width="87" height="20" x="69" y="67" style="fill:#aea;stroke:black;"/>
+   <text width="87" height="20" x="74" y="81" style="fill:black;" font-family="Arial" font-size="16px">uid</text>
+   <rect width="87" height="20" x="69" y="87" style="fill:none;stroke:black;"/>
+   <text width="87" height="20" x="74" y="101" style="fill:black;" font-family="Arial" font-size="16px">uname</text>
+   <rect width="87" height="20" x="69" y="107" style="fill:none;stroke:black;"/>
+   <text width="87" height="20" x="74" y="121" style="fill:black;" font-family="Arial" font-size="16px">uemail</text>
+   <rect width="87" height="20" x="69" y="127" style="fill:none;stroke:black;"/>
+   <text width="87" height="20" x="74" y="141" style="fill:black;" font-family="Arial" font-size="16px">upassword</text>
+</svg>

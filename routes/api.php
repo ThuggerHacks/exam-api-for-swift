@@ -8,6 +8,7 @@ use App\Http\Controllers\UserController;
 Route::controller(UserController::class)->group(function(){
     Route::post("/user","index");
     Route::post("/login","login");
+    Route::get("/user/all","all");
     Route::get("/user/{id?}","one");
     Route::put("/user/{id?}","update");
 });
@@ -21,6 +22,7 @@ Route::controller(ExamController::class)->group(function(){
     Route::post("/category","onCategorySelect");
     Route::post("/inst","onInstitutionSelect");
     Route::put("/exam/{id?}","update");
+    Route::get("/category","category");
     Route::delete("/exam/{id?}","delete");
 });
 

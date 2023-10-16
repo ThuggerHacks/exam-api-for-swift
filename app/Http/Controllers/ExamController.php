@@ -7,6 +7,7 @@ use App\Models\Category;
 use App\Models\Exam;
 use App\Models\Instituition;
 use App\Models\Subject;
+use DB;
 use Illuminate\Http\Request;
 
 class ExamController extends Controller
@@ -64,11 +65,11 @@ class ExamController extends Controller
     }
 
     public function one($id = 0){
-        return Exam::find($id);
+        return DB::select("SELECT tbl_exam.*,tbl_instituition.*,tbl_user.*, tbl_subject.*,tbl_category.* FROM tbl_exam,tbl_instituition,tbl_user,tbl_subject,tbl_category WHERE tbl_exam.iid = tbl_instituition.iid AND tbl_exam.sid = tbl_subject.sid AND tbl_exam.cid = tbl_category.cid AND tbl_exam.user_id = tbl_user.uid AND tbl_exam.eid = ? LIMIT 1",[$id])[0];
     }
 
     public function all(){
-        return Exam::get();
+        return DB::select("SELECT tbl_exam.*,tbl_instituition.*,tbl_user.*, tbl_subject.*,tbl_category.* FROM tbl_exam,tbl_instituition,tbl_user,tbl_subject,tbl_category WHERE tbl_exam.iid = tbl_instituition.iid AND tbl_exam.sid = tbl_subject.sid AND tbl_exam.cid = tbl_category.cid AND tbl_exam.user_id = tbl_user.uid");
     }
 
     public function delete($id = 0){
@@ -81,7 +82,7 @@ class ExamController extends Controller
         $resp = $ee->delete();
 
 
-        return $resp;
+        return ["data" => $resp];
     }
 
     //this function must be called onSubjectSelect
@@ -112,11 +113,9 @@ class ExamController extends Controller
             return response()->json(["error" => "Houve um erro"]);
         }
 
-        $exam = Exam::where("sid",$subjectFinder->sid)
-                            ->where("eyear",$year)
-                            ->get();
+
+        return DB::select("SELECT tbl_exam.*,tbl_instituition.*,tbl_user.*, tbl_subject.*,tbl_category.* FROM tbl_exam,tbl_instituition,tbl_user,tbl_subject,tbl_category WHERE tbl_exam.iid = tbl_instituition.iid AND tbl_exam.sid = tbl_subject.sid AND tbl_exam.cid = tbl_category.cid AND tbl_exam.user_id = tbl_user.uid AND tbl_exam.sid = ? AND tbl_exam.eyear = ?",[$subjectFinder->sid,$year]);
     
-        return $exam;
 
     }
 
@@ -135,6 +134,9 @@ class ExamController extends Controller
         return $institution;
     }
 
+    public function category(){
+        return Category::get();
+    }
     //on institution select, u gotta show the subjects and also the year
     public function onInstitutionSelect(Request $request) {
         $iname = $request->iname;
@@ -152,7 +154,7 @@ class ExamController extends Controller
     }
 
     public function userId($uid = 0){
-        return Exam::where("user_id",$uid)->get();
+        return DB::select("SELECT tbl_exam.*,tbl_instituition.*,tbl_user.*, tbl_subject.*,tbl_category.* FROM tbl_exam,tbl_instituition,tbl_user,tbl_subject,tbl_category WHERE tbl_exam.iid = tbl_instituition.iid AND tbl_exam.sid = tbl_subject.sid AND tbl_exam.cid = tbl_category.cid AND tbl_exam.user_id = tbl_user.uid AND tbl_exam.user_id = ?",[$uid]);
     }
 
 }

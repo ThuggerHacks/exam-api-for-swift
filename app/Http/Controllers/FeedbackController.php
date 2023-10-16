@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\FeedbackRequest;
 use App\Models\Feedback;
+use DB;
 use Illuminate\Http\Request;
 
 class FeedbackController extends Controller
@@ -29,7 +30,7 @@ class FeedbackController extends Controller
     }
 
     public function byExamId($eid = 0){
-        $feed = Feedback::where("exam_id",$eid)->get();
+        $feed = DB::select("SELECT tbl_feedback.*, tbl_user.uname FROM tbl_feedback, tbl_user WHERE tbl_feedback.user_id = tbl_user.uid AND tbl_feedback.exam_id = ?",[$eid]);
         return $feed;
     }
 

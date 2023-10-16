@@ -27,7 +27,7 @@ class UserController extends Controller
             "uname" => $name    
         ]);
 
-        return response()->json([$user]);
+        return response()->json($user);
         
     }
 
@@ -51,6 +51,10 @@ class UserController extends Controller
         return $user;
     }
 
+    public function all(){
+        return User::get();
+    }
+
     public function update(UserRequest $request, $id = 0){
         $email = $request->email;
         $password = $request->password;
@@ -68,6 +72,6 @@ class UserController extends Controller
             "uname" => $name    
         ]);
 
-        return response()->json(["data" => $userData]);
+        return response()->json( $user);
     }
 }
